@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Compatibility Checker</title>
+    <link rel="stylesheet" href="Horoscope.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Horoscope Compatibility Checker</h1>
+        </header>
+        <main>
+            <div class="input-container">
+                <label for="sign1">Enter your horoscope sign:</label>
+                <input type="text" id="sign1" placeholder="e.g., Aries">
+            </div>
+            <div class="input-container">
+                <label for="sign2">Enter the other person's horoscope sign:</label>
+                <input type="text" id="sign2" placeholder="e.g., Taurus">
+            </div>
+            <button onclick="checkCompatibility()">Check Compatibility</button>
+            <div id="results" class="results"></div>
+        </main>
+    </div>
+    <script src="Horoscope.js"></script>
+</body>
+</html>
